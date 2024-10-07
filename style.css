@@ -206,19 +206,16 @@ footer p {
     }
 }
 
-/* For mobile devices with a screen width of 480px or less */
 @media (max-width: 480px) {
 
-    /* Navbar */
     .navbar {
         padding: 10px;
     }
 
     .nav-links {
-        display: none; /* Hidden for mobile */
+        display: none; 
     }
 
-    /* Hero Section */
     .hero {
         height: 50vh;
         padding: 20px;
@@ -237,7 +234,6 @@ footer p {
         padding: 6px 12px;
     }
 
-    /* Game Grid */
     .game-grid {
         grid-template-columns: 1fr;
     }
@@ -259,7 +255,6 @@ footer p {
         font-size: 14px;
     }
 
-    /* Leaderboard Section */
     .leaderboard h2 {
         font-size: 24px;
     }
@@ -268,7 +263,6 @@ footer p {
         font-size: 16px;
     }
 
-    /* Footer */
     footer {
         padding: 10px;
     }
