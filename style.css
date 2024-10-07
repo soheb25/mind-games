@@ -149,3 +149,131 @@ footer p {
     width: 24px;
     margin: 0 10px;
 }
+
+/* Responsive Styles */
+
+/* For tablets and devices with a screen width of 768px or less */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .nav-links {
+        display: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar .logo {
+        font-size: 20px;
+    }
+
+    /* Hero Section */
+    .hero {
+        height: 60vh;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .cta-btn {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    /* Game Grid */
+    .game-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .game-card img {
+        height: auto;
+    }
+
+    /* Leaderboard Section */
+    .leaderboard h2 {
+        font-size: 30px;
+    }
+
+    .leaderboard-list {
+        font-size: 18px;
+    }
+}
+
+/* For mobile devices with a screen width of 480px or less */
+@media (max-width: 480px) {
+
+    /* Navbar */
+    .navbar {
+        padding: 10px;
+    }
+
+    .nav-links {
+        display: none; /* Hidden for mobile */
+    }
+
+    /* Hero Section */
+    .hero {
+        height: 50vh;
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .cta-btn {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    /* Game Grid */
+    .game-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .game-card {
+        margin-bottom: 20px;
+    }
+
+    .game-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .game-card h3 {
+        font-size: 18px;
+    }
+
+    .play-btn {
+        font-size: 14px;
+    }
+
+    /* Leaderboard Section */
+    .leaderboard h2 {
+        font-size: 24px;
+    }
+
+    .leaderboard-list {
+        font-size: 16px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 10px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
